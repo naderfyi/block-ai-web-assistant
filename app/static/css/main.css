@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    display: block;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
